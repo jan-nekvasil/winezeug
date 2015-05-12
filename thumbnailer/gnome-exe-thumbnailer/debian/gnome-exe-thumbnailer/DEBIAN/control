@@ -1,0 +1,15 @@
+Package: gnome-exe-thumbnailer
+Version: 0.9.4-0ubuntu1
+Architecture: all
+Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
+Installed-Size: 190
+Depends: icoutils, imagemagick, python
+Section: gnome
+Priority: extra
+Multi-Arch: foreign
+Description: Wine .exe and other executable thumbnailer for Gnome
+ gnome-exe-thumbnailer is a thumbnailer for Gnome that will give Windows .exe
+ files an icon based on their embedded icon and a generic "Wine program" icon.
+ If the program has normal execute permissions, then the standard embedded icon
+ will be shown.  This thumbnailer will also give a thumbnail icon for .jar, .py,
+ and similar executable programs.
